@@ -1,9 +1,38 @@
-<<<<<<< HEAD
+
 *{
     margin: 0;
 }
-=======
+
 body{
 display : flex;
 }
->>>>>>> f6b79ce42fc65c32a328b0e268949955fa51f592
+
+.watch{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    /* background: rgb(113, 106, 106); */
+    border: 1px solid rgb(113, 106, 106);
+    border-radius: 10%;
+    width: 220px;
+    height: 280px;
+    text-align: center;
+    box-shadow: 2px 2px 2px gray;
+}
+.watch img{
+    width: 200px;
+    height: 200px;
+    
+}
+.watch h3{
+    text-align: center;
+}
+.watch .price{
+    display: inline;
+    font-size: 15px;
+}
+.watch h6{
+    display: inline;
+    font-size: 14px;
+    
+}
